@@ -8,11 +8,7 @@ body {
 #image {
   display:block;
   margin: 0px auto;
-}
-
-#intro {
-  font-size: 20px;
-  margin-top: 25px;
+  padding: 25px;
 }
 
 p {
@@ -61,9 +57,6 @@ footer {
 
 @media screen and (max-width: 500px) {
   body {
-    font-size: 12px
-  }
-  #intro {
     font-size: 12px
   }
 }
