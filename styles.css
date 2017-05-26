@@ -1,3 +1,62 @@
 body {
-  background: blue;
+  background-image: url(photos/bokeh.jpg);
+  font-family: courier;
+  font-size:18px;
+  max-width: 1200px;
+}
+
+#image {
+  display:block;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+p {
+  text-align: center;
+  margin: 0px auto;
+}
+h1 {
+  font-family: cursive;
+  color:white;
+  text-shadow: -2px -4px purple;
+  text-align: center;
+  border: 20px solid lightcoral;
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+li {
+  color:lightslategray;
+}
+
+label {
+  color: darkslategrey;
+}
+
+a:link{
+  color:orchid;
+}
+a:hover {
+  color: purple;
+  font-size: 40px;
+}
+a:visited{
+  color: palevioletred;
+}
+
+.main {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px
+  }
 }
