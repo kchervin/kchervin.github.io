@@ -1,15 +1,15 @@
 body {
   background-image: url(photos/bokeh.jpg);
   font-family: courier;
-  font-size:20px;
+  font-size:18px;
 }
 
-.image {
+#image {
   display:block;
   margin: 0px auto;
 }
 
-.intro {
+#intro {
   text-align: center;
   margin: 0px auto;
 }
@@ -24,6 +24,14 @@ h1 {
   margin-right: 30%;
 }
 
+li {
+  color:lightslategray;
+}
+
+label {
+  color: darkslategrey;
+}
+
 a:link{
   color:orchid;
 }
@@ -35,9 +43,8 @@ a:visited{
   color: palevioletred;
 }
 
-#question {
-  font-weight: normal;
-  font-size: 15px;
+.main {
+  font-weight: bold;
 }
 
 footer {
