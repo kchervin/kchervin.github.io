@@ -2,6 +2,7 @@ body {
   background-image: url(photos/bokeh.jpg);
   font-family: courier;
   font-size:18px;
+  max-width: 1200px;
 }
 
 #image {
@@ -10,6 +11,11 @@ body {
 }
 
 #intro {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+p {
   text-align: center;
   margin: 0px auto;
 }
@@ -52,3 +58,13 @@ footer {
   font-size: 10px;
   font-family: sans-serif;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px
+  }
+  #intro {
+    font-size: 12px
+  }
+}
+
